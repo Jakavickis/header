@@ -1,0 +1,29 @@
+.body {
+    background: green;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.navContainer a {
+    margin-left: 15px;
+    border-style: none;
+}
+
+.burgerSvg {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navContainer a {
+        display: none;
+    }
+
+    
+}
